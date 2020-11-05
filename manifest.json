@@ -1,0 +1,30 @@
+{
+    "name": "Getting Started Example",
+    "version": "2.0",
+    "manifest_version":2,
+    "description": "Build an Extension! v2",
+    "background":{
+        "scripts":["background.js"],
+        "persistent":true
+    },
+    "permissions": [
+        // "storage",
+        // "notifications",
+        // "contextMenus",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+      ],
+      "icons": {
+        "16": "icons/icon2.png",
+        "48":"icons/icon48.png",
+        "32":"icons/icon32.png",
+        "128":"icons/icon128.png"
+      }
+    // "browser_action": {
+    //     "default_title":"test 123",
+    //     "default_icon":"icons/icon2.png",
+    //     "default_popup":"public/htmlFiles/popup.html"
+    // }
+  
+}
